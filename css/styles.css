@@ -1,23 +1,38 @@
 body {
   background-image: url("http://www.thenextroad.com/wp-content/uploads/2014/04/white-brick-background1.jpg");
+  font-family: monospace;
 }
 
 h1 {
   text-align: center;
+  font-family: sans-serif;
 }
 
-h2.intro {
-  font-family: monospace;
-  font-size: 20px;
+.header {
+  background-color: #ffffff;
+  width: 100%;
+  float: left;
+  margin: 0;
 }
-
-p.intro {
+.intro {
   font-style: italic;
-  font-size: 10px;
+  font-size: 18px;
+  display: block;
+  margin: auto;
   text-align: center;
 }
 
-img.intro {
+.bottom {
   display: block;
   margin: auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.italicize {
+  font-style: italic;
 }
